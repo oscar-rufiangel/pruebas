@@ -4,8 +4,11 @@ public class NumerosPrimos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
+        System.out.println("Me aburro: ");
+        int aa = sc.nextInt();
         if (esPrimo(num)) {
-            System.out.println("El numero " + num + " es primo");
+            System.out.println(aa);
+            System.out.println("El numero " + num + " aaaaaaaaa");
         } else {
             System.out.println("El numero " + num + " no es primo");
         }
